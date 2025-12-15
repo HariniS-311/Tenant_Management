@@ -1,0 +1,12 @@
+<h2>Property Details</h2>
+
+<div class="details-card">
+  <p><b>Property ID:</b> {{ propertyId }}</p>
+  <p><b>Type:</b> 2BHK Apartment</p>
+  <p><b>Location:</b> Chennai</p>
+  <p><b>Status:</b> Available</p>
+
+  <a [routerLink]="['/properties', propertyId, 'book']" class="btn">
+    Book This Property
+  </a>
+</div>

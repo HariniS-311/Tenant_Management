@@ -1,0 +1,13 @@
+<h2>Booking Request</h2>
+
+<div class="form-card">
+  <p><b>Property ID:</b> {{ propertyId }}</p>
+
+  <label>Tenant Name</label>
+  <input type="text" [(ngModel)]="tenantName">
+
+  <label>Message</label>
+  <textarea [(ngModel)]="message"></textarea>
+
+  <button (click)="submitRequest()">Submit Request</button>
+</div>
